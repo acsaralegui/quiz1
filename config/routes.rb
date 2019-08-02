@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
   root 'techie#index'
-  resources :news
+  resources :news do
+  end
 end
+
+
+
